@@ -1,0 +1,381 @@
+html, a {
+	color: #fff;
+}
+
+input:focus {
+	outline: none;
+}
+
+	
+button:focus {
+	outline: none;
+}
+
+@media(max-width: 991px) {
+
+	#header {
+		background: url(img/smbgImg.png) center center no-repeat !important;
+		padding: 20px 20px !important;
+	}
+	#header p {
+		font-size: 0.8em;
+		padding-bottom: 4em;
+	}
+
+	#letsgo {
+		background: none !important;
+		background-color: #fff !important;
+	}
+
+	#letsgo{
+		padding: 40px 0 0 0 !important;
+	}
+
+	#promo .promodisco h2 {
+		margin-top: 10%;
+	}
+
+	#promo .promodisco2 h2 {
+		margin-top: 10%;
+	}
+
+	
+
+	#explore {
+		display: none;
+	}
+
+	#hiking {
+		display: none;
+	}
+	#testimonials {
+		padding: 120px 10px 100px 10px !important;
+		text-align: center;
+	}
+	#subscribe {
+		background: url(img/smsubscribeBg.png) !important;
+		padding: 100px 20px !important;	
+	}
+	#footer {
+		background: url(img/smfooterBg.png) !important;
+		padding: 100px 20px !important;
+	}
+
+
+}
+
+
+@media(min-width: 992px) {
+
+	#promo .promodisco h2 {
+		margin-top: 30%;
+	}
+	#promo .promodisco2 h2 {
+		margin-top: 30%;
+	}
+}
+
+.navbar .navbar-nav .nav-link {
+	margin-right: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #82807e;
+}
+
+.searchinput {
+	width: 200px;
+	height: 44px;
+	border-radius: 30px;
+	border-style: none;
+	color: #fff;
+	background-color: #54524f;
+	opacity: 0.5;
+	padding-left: 15px;	
+}
+
+.searchimg {
+	margin-left: -60px;
+}
+
+#header {
+	background: url(img/bgImg.png) center center no-repeat;
+	background-size: cover;
+	padding: 380px 0 200px 0;
+}
+
+#header img {
+	padding: 100px 0 20px 0;
+
+}
+
+#header button {
+	margin: 60px 0 20px 0;	
+}
+
+#header p {
+	width: 40%;
+	color: #54524f;
+}
+
+#header h1 {
+	color: #deb37e;
+	font-weight: bolder;
+	font-size: 5em;
+	text-shadow: 2px 0px 5px grey;
+
+}
+
+#header h2 {
+	color: #54524f;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.headerbtn {
+	color: #776c64;
+	font-weight: bold;
+	background-color: #fff;
+	border-radius: 130px;
+	padding: 5px 20px;
+	font-size: 1.5em;
+}
+
+#letsgo {
+	background: url(img/shadow.png) bottom left no-repeat;
+}
+
+#letsgo .container {
+	padding: 0;
+}
+
+#letsgo h1 {
+
+	color: #e2a355;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+#letsgo .utitle {
+	font-size: 1.5em;
+	color: #7f7770;
+	margin-bottom: 50px;
+
+
+}
+#letsgo .card-body {
+	background-color: #7f7770;
+}
+
+#letsgo .card-image {
+	padding: 0;
+}
+
+#letsgo .card-image img{
+	margin: 0;
+}
+
+#letsgo .card a {
+	color: #fff;
+}
+
+.letsgobtn {
+
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #7f7770;
+	border-radius: 30px;
+	padding: 10px 50px;
+	letter-spacing: 5px;
+	margin: 60px 0 150px 0;
+}
+}
+
+#promo .row{
+	padding: 0;
+}
+
+#promo .promodisco {
+	background-color: #7f7770;
+	color: #fff;
+	padding: 10px 35px;	
+	
+}
+
+#promo .promoimg{
+	padding: 0;
+}
+
+#promo .promodisco2 {
+	background-color: #deb37e;
+	color: #fff;
+	padding: 10px 20px 10px 60px;
+}
+
+.promobtn1 {
+
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #e2a355;
+	border-radius: 30px;
+	padding: 10px 40px;
+	letter-spacing: 5px;
+	margin: 60px 0 70px 0;
+}
+
+.promobtn2 {
+
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #e2a355;
+	border-radius: 30px;
+	padding: 10px 40px;
+	letter-spacing: 5px;
+	margin: 60px 0 70px 0;
+}
+
+#promo .discountImg{
+	height: 600px;
+	width: 570px;
+}
+
+#promo .discountImg2{
+	height: 600px;
+}
+
+
+#promo h2{
+	margin: 170px 0 20px 0;
+}
+
+#header .divider {
+	position: relative;
+	width: 100%;
+	margin: auto 0;
+}
+
+#hiking {
+	background: url(img/mBgImg.png) center center no-repeat;
+	background-size: cover;
+	padding: 450px 10px;
+	color: #fff;
+}
+
+#hiking h1 {
+	margin-bottom: 40px;
+	font-size: 4em;
+}
+
+#hiking p {
+	font-size: 1.5em;
+}
+
+#explore {
+	background: url(img/exploreImg.png) center center no-repeat;
+	background-size: cover;
+	padding: 650px 10px;
+	color: white;
+}
+
+#explore h2 {
+	font-size: 5em;
+}
+
+#explore .exploreTitle {
+	color: #e2a355;
+}
+
+#testimonials {
+	background: url(img/shadowRight.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding: 0px 20px 200px 20px;
+}
+
+#testimonials h3 {
+	color: #e2a355;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+#testimonials img {
+	margin: 200px 0 50px 0;
+}
+
+#testimonials .quote {
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+#testimonials .author {
+	font-weight: bolder;
+
+}
+
+#subscribe {
+	position: relative;
+	background: url(img/subscribeBg.png) center center no-repeat;
+	background-size: cover;
+	padding: 350px 20px;
+}
+
+#subscribe h2 {
+	color: #fff;
+	font-size: 4.5em;
+	margin-bottom: 65px;
+}
+
+#subscribe p {
+	color: #7f7770;
+	font-size: 2em;	
+	margin-bottom: 60px;
+}
+
+.subbtn {
+	color: #fff;
+	font-weight: bold;
+	background-color: #54524f;
+	border-radius: 30px;
+	padding: 12px 40px;
+	letter-spacing: 2px;
+	margin-left: -40px;
+	border-style: none;
+}
+
+.subbtn:hover {
+	color: #e2a355;
+}
+
+.form-inline {
+	border-style: none;
+}
+
+.subinput {
+	width: 50%;
+	height: 44px;
+	border-radius: 30px;
+	border-style: none;
+	color: #54524f;
+	padding-left: 15px;
+}
+
+#footer {
+	background: url(img/footerBg.png);
+	padding: 400px 20px 200px 20px;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 1.3em;		
+}
+
+#footer ul {
+	list-style: none;
+	padding: 0;
+}
+
+#footer h3 {
+	margin-bottom: 30px;
+	font-weight: lighter;
+}
